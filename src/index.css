@@ -1,0 +1,51 @@
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 75px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 75px;
+  float: left;
+}
+.square:focus{
+  outline: none;
+}
+
+
+.Game_Board{
+  text-align: center;
+  float: left;
+  padding-right: 100px;
+}
+
+.Game_Board_Reduce{
+  text-align: center;
+  float: left;
+  padding-right: 10px;
+  transform: scale(0.55);
+}
+
+.Game_Container{
+  text-align: center;
+  float: left;
+  padding-right: 100px;
+}
+
+.boutons{
+  width: 250px;
+}
+
+body {
+  font: 25px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  background-image: linear-gradient(deepskyblue,dodgerblue);
+}
+
+.rules {
+  font-size: 20px;
+}
